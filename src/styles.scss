@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// Define Global Variables
+
+/* BUTTONS */
+$primary-button-color: #1877F2;
+$success-button-color: #42B72A;
+
+/* OTHER COLORS */
+$header-color: white;
+$body-color: #F0F2F5;

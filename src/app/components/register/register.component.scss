@@ -1,0 +1,80 @@
+.register {
+  padding: 0;
+}
+
+.header {
+  border-bottom: 1px solid lightgray;
+  width:100%;
+
+  h3 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+
+.body {
+  margin-top: 20px;
+
+  form {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user_name {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width:100%;
+    input {
+      flex:1;
+      outline:none;
+      border:1px solid lightgray;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #F5F6F7;
+    }
+  }
+
+  .email_password {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 10px;
+
+    input {
+      flex: 1;
+      outline:none;
+      border:1px solid lightgray;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #F5F6F7;
+    }
+  }
+
+  p {
+    font-size: 11px;
+    margin-top: 20px;
+    color: #777777;
+  }
+
+  .submit-button {
+    padding: 10px 18px;
+    background-color: #00A400;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width:200px;
+    align-self: center;
+    outline:none;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+  }
+
+
+}
